@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration"
+    android:orientation="vertical">
+  <TextView
+      android:id="@+id/txtCaption"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="welcome to registration"
+      android:textSize="24sp"
+      android:textColor="#ff0000"
+      android:textStyle="bold|italic"
+      android:gravity="center"
+      android:layout_marginTop="10dp"
+      />
+  <EditText
+      android:id="@+id/txtUserName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="enter user name"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center"
+      android:textSize="18sp"
+      android:textColor="#0D2B77"/>
+  <EditText
+      android:id="@+id/txtEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="enter email address"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:textSize="18sp"
+      android:textColor="#0D2B77"
+      />
+  <EditText
+      android:id="@+id/txtTelephone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="enter phone number, example:\n 0501112222 or 031112222"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:textSize="18sp"
+      android:textColor="#0D2B77"
+      android:inputType="number"/>
+  <EditText
+      android:id="@+id/txtPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="enter password, at least:\n 1 small letter\n 1 big letter\n 1 digit\n 1 special sjgn\n
+no spacing"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:textSize="18sp"
+      android:textColor="#0D2B77"
+      />
+  <Button
+      android:id="@+id/btnSend"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="submit"
+      android:backgroundTint="#125A13"
+      android:textStyle="bold"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:textColor="#FFEB3B"/>
+
+</LinearLayout>

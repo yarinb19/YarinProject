@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Stage1">
+
+    <ImageButton
+        android:id="@+id/up"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:layout_marginLeft="250px"
+        android:src="@drawable/arrowup" />
+
+    <ImageButton
+        android:id="@+id/diagonalRight"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:layout_marginLeft="500px"
+        android:src="@drawable/arrowrightup"
+        />
+
+    <ImageButton
+        android:id="@+id/diagonalLeft"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:text="diagonalLeft"
+        android:src="@drawable/arrowleftup"
+        />
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="130px"
+        android:src="@drawable/arrowright" />
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="130px"
+        android:src="@drawable/arrowleft" />
+    />
+
+    <ImageView
+        android:id="@+id/door"
+        android:layout_width="100px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="900px"
+        android:layout_marginBottom="375px"
+        android:src="@drawable/closeddoor" />
+
+    <ImageView
+        android:id="@+id/door1"
+        android:layout_width="100px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="900px"
+        android:layout_marginBottom="375px"
+        android:src="@drawable/opendoor"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/imgfigure"
+        android:layout_width="31dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left"
+        android:layout_marginBottom="300px"
+        android:src="@drawable/gamefigure" />
+
+
+    <ImageView
+        android:id="@+id/floor1"
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/floor" />
+
+    <ImageView
+        android:id="@+id/floor2"
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/floor" />
+
+    <ImageView
+        android:id="@+id/stairs1"
+        android:layout_width="150px"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="800px"
+        android:layout_marginBottom="300px"
+        android:src="@drawable/floor" />
+
+    <ImageView
+        android:id="@+id/stairs11"
+        android:layout_width="150px"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="900px"
+        android:layout_marginBottom="300px"
+        android:src="@drawable/floor" />
+
+
+
+
+</RelativeLayout>
